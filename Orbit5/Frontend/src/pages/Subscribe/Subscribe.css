@@ -1,0 +1,46 @@
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 20px;
+    left: 60px;
+    color: #961499;
+    font-style: italic;
+    font-weight: 700;
+    font-family: 'Playfair Display';
+    font-size: 3rem;
+}
+
+.heading {
+    font-family: 'Playball', cursive;
+    font-style: normal;
+    line-height: 125px;
+    font-size: 2rem;
+    color: #156508;
+}
+
+.details {
+    font-family: 'Playball', cursive;
+    font-style: normal;
+    line-height: 2;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 480px) {
+    .bottom-left {
+        position: absolute;
+        bottom: 8px;
+        left: 3px;
+        color: #961499;
+        font-style: italic;
+        font-weight: 700;
+        font-family: 'Playfair Display';
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,86 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 2;
+}
+
+h4 {
+    font-size: 3rem;
+    background: -webkit-linear-gradient(#CB5438, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Red {
+    color: #FD620B !important;
+    font-weight: bold;
+}
+.RedColor{
+    color: #FD620B;
+}
+.White {
+    color: white;
+}
+
+.bgPink {
+    background-color: #FBE6C7;
+}
+
+.Orange {
+    background-color: #FB9A09;
+}
+
+.Blue {
+    color: #072E53;
+}
+.bgBlue{
+    background-color: #072E53 ;
+}
+input[type=text], input[type="text"]:focus{
+    outline: none !important;
+    outline: 0;
+}
+.LightBlue{
+    background-color: #EBFDF9;
+}
+.Radius10 {
+    border-radius: 10px;
+}
+.Radius43{
+    border-radius: 43px;
+}
+.card{
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.25);
+    width: 27.625rem;
+}
+.logo{
+    width: 150px;
+}
+@media screen and (max-width: 480px) {
+    h4 {
+        font-size: 2rem;
+    }
+
+    h5 {
+        font-size: 1rem;
+    }
+
+    .centered {
+        font-size: 12px;
+    }
+
+    .detailimg {
+        height: 130px;
+    }
+    .logo{
+        width: 125px;
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Demo_Capstone_Project_T16_COMP3078",
+  "version": "1.0.0",
+  "description": "Demo - Capstone Project - T16 - COMP3078\r For Front end............> (1)cd frontend For creating frontend react app (2)npx create-react-app orbit5front",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vatsalbhimani03/Demo_Capstone_Project_T16_COMP3078.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vatsalbhimani03/Demo_Capstone_Project_T16_COMP3078/issues"
+  },
+  "homepage": "https://github.com/vatsalbhimani03/Demo_Capstone_Project_T16_COMP3078#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
